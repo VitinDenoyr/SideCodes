@@ -1,0 +1,14 @@
+{
+	"files.associations": {
+		"*.embeddedhtml": "html",
+		"queue": "cpp",
+		"iostream": "cpp",
+		"utility": "cpp",
+		"stdexcept": "cpp",
+		"xutility": "cpp",
+		"vector": "cpp",
+		"algorithm": "cpp",
+		"set": "cpp",
+		"xtree": "cpp"
+	}
+}
