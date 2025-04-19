@@ -1,3 +1,7 @@
+/*
+	Código para ordenar um array de 5 elementos fazendo no máximo 7 comparações.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -59,6 +63,7 @@ void order5elements(vector<int> v = {}){
 int main(){
 
 	vector<int> p = {1,2,3,4,5};
+	//Código para verificar visualmente se ordenou certo todas as permutações possíveis
 	for(int i = 1; i <= 120; i++){
 		order5elements(p);
 		next_permutation(p.begin(),p.end());

@@ -1,3 +1,7 @@
+/*
+	Header para implementar a classe Heap, também conhecida como fila de prioridade.
+*/
+
 #pragma once
 #include <bits/stdc++.h>
 using namespace std;

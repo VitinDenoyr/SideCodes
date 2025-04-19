@@ -1,3 +1,6 @@
+/*
+	Código para mostrar alguns métodos de ordenação, counting sort e quesort que não usam comparações e também o heapsort, capaz de ordenar usando a estrutura heap.
+*/
 #include <bits/stdc++.h>
 #include "heap.h"
 using namespace std;
