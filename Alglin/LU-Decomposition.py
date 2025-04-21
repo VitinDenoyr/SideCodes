@@ -11,7 +11,7 @@ def LU_Decomposition(A): #Numpy
 	for i in range(n):
 		index[i] = i
   
-	P = np.eye(n), L = np.eye(n), U = A.copy()
+	P = np.eye(n); L = np.eye(n); U = A.copy()
 	ops = []
 
 	#Início da iteração
@@ -49,9 +49,9 @@ def LU_Decomposition(A): #Numpy
 	return P, L, U
   
 A = np.array([
-    [0, 0, 0],
-    [0, 0, 69],
-    [0, 0, 0]
+    [5.2, 3, -100],
+    [161, 2.3, 69],
+    [1, -4, 133.1]
 ],dtype=np.float64)
 
 P, L, U = LU_Decomposition(A)
