@@ -1,0 +1,1 @@
+pie(c(60,30,270),labels = c("Parte clara da pirâmide","Sombra da pirâmide","Céu"),col=c("#d1a353","#583924","#426391"),init.angle = 225)
