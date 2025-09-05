@@ -18,7 +18,7 @@ if(n <= 100):
     psifunc = np.frompyfunc(psii,1,1)
     psi = psifunc(psi_vals)
 else:
-    #Outro método para fazer a teórica, para valores grandes de n sem overflow na gamma
+    #Outro método para fazer a teórica, para valores grandes de n sem acontecer overflow na gamma
     p_vals = 1/(1 + np.exp(-psi_vals))
     jacobian = np.exp(-psi_vals)/(1 + np.exp(-psi_vals))**2
     psi = sci.beta.pdf(p_vals, a, b) * jacobian
